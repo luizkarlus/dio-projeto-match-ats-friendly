@@ -219,8 +219,6 @@ Execução sem `AI_API_KEY`: 15 requisitos identificados, 11 com evidência, ín
 
 Versão reorganizada a partir do currículo original, mantendo nome, contato, empresas, cargos e datas. O PDF é gerado a partir do conteúdo atual do editor.
 
-> Para atualizar as evidências, substitua os arquivos em `docs/` mantendo os mesmos nomes. Se criar novos nomes, ajuste o caminho dentro dos parênteses de cada imagem.
-
 ## 13. Histórico de desenvolvimento
 
 1. Estrutura, identidade visual, formulário e estados de carregamento/erro.
@@ -245,7 +243,7 @@ Para executar, veja a seção [8. Configuração local](#8-configuração-local)
 
 ## 15. Repositório
 
-> Link do repositório GitHub: _a definir_.
+[Link do repositório GitHub:](https://github.com/luizkarlus/dio-projeto-match-ats-friendly.git)
 
 ## Privacidade
 
