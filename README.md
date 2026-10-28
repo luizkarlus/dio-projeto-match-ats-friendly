@@ -199,13 +199,27 @@ Os exemplos são identificados como fictícios na própria interface e não repr
 
 ## 12. Evidências de uso
 
-> Espaço reservado para capturas de tela reais. Nenhuma imagem foi inventada.
+Capturas reais da aplicação executada localmente com a vaga e o currículo fictícios de exemplo. As imagens ficam em `docs/` e são referenciadas por caminho relativo ao README — funcionam no GitHub e ao abrir o arquivo localmente.
 
-- `docs/captura-formulario.png` — placeholder
-- `docs/captura-resultado.png` — placeholder
-- `docs/captura-pdf.png` — placeholder
+### Formulário de análise
 
-Ao gerar as capturas, substitua os placeholders e descreva o que cada imagem mostra.
+![Formulário do Match ATS com os campos "Descrição da vaga" e "Seu currículo" preenchidos pelos exemplos fictícios, contadores de caracteres e o botão "Analisar compatibilidade"](docs/captura-formulario.png)
+
+Vaga fictícia de front-end pleno à esquerda, currículo fictício de "Ana Ribeiro" à direita, contadores de caracteres ativos e botão principal habilitado.
+
+### Resultado da análise
+
+![Resultado em modo determinístico, com índice 82 de 100, barras de cobertura por categoria e a fórmula do cálculo](docs/captura-resultado.png)
+
+Execução sem `AI_API_KEY`: 15 requisitos identificados, 11 com evidência, índice 82 de 100 e aviso explícito de que a IA não está configurada. Os pesos aparecem redistribuídos entre as categorias aplicáveis, e a tela reforça que o índice é uma estimativa interna.
+
+### Currículo otimizado e exportação
+
+![Editor do currículo otimizado com os botões "Copiar currículo", "Baixar PDF" e "Nova análise"](docs/captura-pdf.png)
+
+Versão reorganizada a partir do currículo original, mantendo nome, contato, empresas, cargos e datas. O PDF é gerado a partir do conteúdo atual do editor.
+
+> Para atualizar as evidências, substitua os arquivos em `docs/` mantendo os mesmos nomes. Se criar novos nomes, ajuste o caminho dentro dos parênteses de cada imagem.
 
 ## 13. Histórico de desenvolvimento
 
