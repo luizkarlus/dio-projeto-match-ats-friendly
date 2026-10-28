@@ -2,6 +2,12 @@
 
 Aplicação web em português do Brasil que compara um currículo com a descrição de uma vaga, mostra o que está evidenciado, o que não está e gera uma versão do currículo mais fácil de ler por pessoas e por sistemas de triagem (ATS).
 
+## Contexto do projeto
+
+Este trabalho faz parte de um **Desafio da DIO (Digital Innovation One)**. Por limitações técnicas — principalmente as restrições da versão gratuita da plataforma de publicação sugerida no desafio — o projeto foi **desenvolvido e executado de forma local**, sem publicação em nuvem, sem banco de dados e sem autenticação.
+
+A decisão não reduz o escopo funcional: a aplicação roda por completo na máquina, com servidor local para a camada de IA e fallback determinístico no navegador. As seções [8. Configuração local](#8-configuração-local) e [14. Aplicação publicada](#14-aplicação-publicada) detalham como executar e o que ficou fora do escopo.
+
 > **Este projeto roda localmente.** Não depende de Lovable Cloud, banco de dados, autenticação ou publicação. A camada de IA é opcional: sem chave configurada, a análise funciona por regras determinísticas.
 
 ## 1. Problema que a aplicação resolve
@@ -218,8 +224,10 @@ Ajustes feitos após a primeira versão:
 
 ## 14. Aplicação publicada
 
-> Não publicada. Este projeto foi construído para execução local.
+> **Não publicada.** O projeto foi desenvolvido de forma local em razão das limitações técnicas descritas no início deste README (Desafio DIO).
 > Endereço público: _a definir_.
+
+Para executar, veja a seção [8. Configuração local](#8-configuração-local).
 
 ## 15. Repositório
 
